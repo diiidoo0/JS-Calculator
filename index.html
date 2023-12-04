@@ -1,0 +1,48 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <title>Calculator</title> 
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="icon.png">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/numeral.js/2.0.6/numeral.min.js"></script>
+        <script src="js/node_modules/mathjs/lib/browser/math.js" type="text/javascript"></script>
+        <script src="js/script.js"></script>
+    </head> 
+    <body> 
+        <div class="wrapper">
+            <table id="calcu"> 
+                <tr> 
+                    <td colspan="3"> 
+                        <input type="text" id="textbox"> 
+                    </td> 
+                    <td><button class="buttonOp" id="clr">C</td> 
+                </tr> 
+        
+                <tr> 
+                    <td><button class="button">1</td> 
+                    <td><button class="button">2</td> 
+                    <td><button class="button">3</td> 
+                    <td><button class="buttonOp" id="operation">/</td> 
+                </tr> 
+                <tr> 
+                    <td><button class="button">4</td> 
+                    <td><button class="button">5</td> 
+                    <td><button class="button">6</td> 
+                    <td><button class="buttonOp" id="operation">*</td> 
+                </tr> 
+                <tr> 
+                    <td><button class="button">7</td> 
+                    <td><button class="button">8</td> 
+                    <td><button class="button">9</td> 
+                    <td><button class="buttonOp" id="operation">-</td> 
+                </tr> 
+                <tr> 
+                    <td><button class="button">0</td> 
+                    <td><button class="buttonOp" id="decimal">.</td> 
+                    <td><button class="buttonOp" id="equal">=</td> 
+                    <td><button class="buttonOp" id="operation">+</td> 
+                </tr> 
+            </table> 
+        </div>
+    </body> 
+</html>  
